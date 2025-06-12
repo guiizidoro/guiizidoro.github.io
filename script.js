@@ -81,73 +81,73 @@ if (filterstatus) {
 }
 
 const carrosselImagens_veccon_moradas01 = [
-    '/imagens/produtos/veccon_moradas_01/image_01_veccon.jpg',
-    '/imagens/produtos/veccon_moradas_01/image_02_veccon.jpg',
-    '/imagens/produtos/veccon_moradas_01/image_03_veccon.jpg',
-    '/imagens/produtos/veccon_moradas_01/image_04_veccon.jpg',
-    '/imagens/produtos/veccon_moradas_01/image_05_veccon.jpg'
+    '/imagens/produtos/veccon_moradas_01/image_01_veccon.webp',
+    '/imagens/produtos/veccon_moradas_01/image_02_veccon.webp',
+    '/imagens/produtos/veccon_moradas_01/image_03_veccon.webp',
+    '/imagens/produtos/veccon_moradas_01/image_04_veccon.webp',
+    '/imagens/produtos/veccon_moradas_01/image_05_veccon.webp'
 ];
 const carrosselImagens_neo_residencial = [
-    '/imagens/produtos/neo_residencial/image_03_neoresidencial.jpg',
-    '/imagens/produtos/neo_residencial/image_01_neoresidencial.jpg',
-    '/imagens/produtos/neo_residencial/image_02_neoresidencial.jpg',
-    '/imagens/produtos/neo_residencial/image_04_neoresidencial.jpg'
+    '/imagens/produtos/neo_residencial/image_03_neoresidencial.webp',
+    '/imagens/produtos/neo_residencial/image_01_neoresidencial.webp',
+    '/imagens/produtos/neo_residencial/image_02_neoresidencial.webp',
+    '/imagens/produtos/neo_residencial/image_04_neoresidencial.webp'
 ];
 const carrosselImagens_arvo_residencial = [
-    '/imagens/produtos/arvo_residencial/image_03_arvoresidencial.jpg',
-    '/imagens/produtos/arvo_residencial/image_01_arvoresidencial.jpg',
-    '/imagens/produtos/arvo_residencial/image_02_arvoresidencial.jpg',
-    '/imagens/produtos/arvo_residencial/image_04_arvoresidencial.jpg'
+    '/imagens/produtos/arvo_residencial/image_03_arvoresidencial.webp',
+    '/imagens/produtos/arvo_residencial/image_01_arvoresidencial.webp',
+    '/imagens/produtos/arvo_residencial/image_02_arvoresidencial.webp',
+    '/imagens/produtos/arvo_residencial/image_04_arvoresidencial.webp'
 ];
 const carrosselImagens_encantos_de_toscana = [
-    '/imagens/produtos/encantos_de_toscana/image_03_encantosdetoscana.jpg',
-    '/imagens/produtos/encantos_de_toscana/image_01_encantosdetoscana.jpg',
-    '/imagens/produtos/encantos_de_toscana/image_02_encantosdetoscana.jpg',
-    '/imagens/produtos/encantos_de_toscana/image_04_encantosdetoscana.jpg'
+    '/imagens/produtos/encantos_de_toscana/image_03_encantosdetoscana.webp',
+    '/imagens/produtos/encantos_de_toscana/image_01_encantosdetoscana.webp',
+    '/imagens/produtos/encantos_de_toscana/image_02_encantosdetoscana.webp',
+    '/imagens/produtos/encantos_de_toscana/image_04_encantosdetoscana.webp'
 ];
 const carrosselImagens_life_residencial = [
-    '/imagens/produtos/life_residencial/image_03_liferesidencial.jpg',
-    '/imagens/produtos/life_residencial/image_01_liferesidencial.jpg',
-    '/imagens/produtos/life_residencial/image_02_liferesidencial.jpg',
-    '/imagens/produtos/life_residencial/image_04_liferesidencial.jpg'
+    '/imagens/produtos/life_residencial/image_03_liferesidencial.webp',
+    '/imagens/produtos/life_residencial/image_01_liferesidencial.webp',
+    '/imagens/produtos/life_residencial/image_02_liferesidencial.webp',
+    '/imagens/produtos/life_residencial/image_04_liferesidencial.webp'
 ];
 const carrosselImagens_epic_residencial = [
-    '/imagens/produtos/epic_residencial/image_03_epicresidencial.jpg',
-    '/imagens/produtos/epic_residencial/image_01_epicresidencial.jpg',
-    '/imagens/produtos/epic_residencial/image_02_epicresidencial.jpg',
-    '/imagens/produtos/epic_residencial/image_04_epicresidencial.jpg'
+    '/imagens/produtos/epic_residencial/image_03_epicresidencial.webp',
+    '/imagens/produtos/epic_residencial/image_01_epicresidencial.webp',
+    '/imagens/produtos/epic_residencial/image_02_epicresidencial.webp',
+    '/imagens/produtos/epic_residencial/image_04_epicresidencial.webp'
 ];
 const carrosselImagens_maxy_santana = [
-    '/imagens/produtos/maxy_santana/image_03_maxysantana.jpg',
-    '/imagens/produtos/maxy_santana/image_01_maxysantana.jpg',
-    '/imagens/produtos/maxy_santana/image_02_maxysantana.jpg',
-    '/imagens/produtos/maxy_santana/image_04_maxysantana.jpg'
+    '/imagens/produtos/maxy_santana/image_03_maxysantana.webp',
+    '/imagens/produtos/maxy_santana/image_01_maxysantana.webp',
+    '/imagens/produtos/maxy_santana/image_02_maxysantana.webp',
+    '/imagens/produtos/maxy_santana/image_04_maxysantana.webp'
 ];
 const carrosselImagens_sou_pleno_paisage = [
-    '/imagens/produtos/sou_pleno_paisage/image_03_souplenopaisage.jpg',
-    '/imagens/produtos/sou_pleno_paisage/image_01_souplenopaisage.jpg',
-    '/imagens/produtos/sou_pleno_paisage/image_02_souplenopaisage.jpg',
-    '/imagens/produtos/sou_pleno_paisage/image_04_souplenopaisage.jpg'
+    '/imagens/produtos/sou_pleno_paisage/image_03_souplenopaisage.webp',
+    '/imagens/produtos/sou_pleno_paisage/image_01_souplenopaisage.webp',
+    '/imagens/produtos/sou_pleno_paisage/image_02_souplenopaisage.webp',
+    '/imagens/produtos/sou_pleno_paisage/image_04_souplenopaisage.webp'
 ];
 const carrosselImagens_reserva_do_parque = [
-    '/imagens/produtos/reserva_do_parque/image_03_reservadoparque.jpg',
-    '/imagens/produtos/reserva_do_parque/image_01_reservadoparque.jpg',
-    '/imagens/produtos/reserva_do_parque/image_02_reservadoparque.jpg',
-    '/imagens/produtos/reserva_do_parque/image_04_reservadoparque.jpg'
+    '/imagens/produtos/reserva_do_parque/image_03_reservadoparque.webp',
+    '/imagens/produtos/reserva_do_parque/image_01_reservadoparque.webp',
+    '/imagens/produtos/reserva_do_parque/image_02_reservadoparque.webp',
+    '/imagens/produtos/reserva_do_parque/image_04_reservadoparque.webp'
 ];
 const carrosselImagens_reserva_dos_ipes = [
-    '/imagens/produtos/reserva_dos_ipes/image_03_reservadodosipes.jpg',
-    '/imagens/produtos/reserva_dos_ipes/image_01_reservadodosipes.jpg',
-    '/imagens/produtos/reserva_dos_ipes/image_02_reservadodosipes.jpg',
-    '/imagens/produtos/reserva_dos_ipes/image_04_reservadodosipes.jpg'
+    '/imagens/produtos/reserva_dos_ipes/image_03_reservadodosipes.webp',
+    '/imagens/produtos/reserva_dos_ipes/image_01_reservadodosipes.webp',
+    '/imagens/produtos/reserva_dos_ipes/image_02_reservadodosipes.webp',
+    '/imagens/produtos/reserva_dos_ipes/image_04_reservadodosipes.webp'
 ];
 const carrosselImagens_veccon_paulinia = [
-    '/imagens/produtos/veccon_paulinia/image_01_vecconpaulinia.jpg',
-    '/imagens/produtos/veccon_paulinia/image_02_vecconpaulinia.jpg',
-    '/imagens/produtos/veccon_paulinia/image_03_vecconpaulinia.jpg',
-    '/imagens/produtos/veccon_paulinia/image_04_vecconpaulinia.jpg',
-    '/imagens/produtos/veccon_paulinia/image_05_vecconpaulinia.jpg',
-    '/imagens/produtos/veccon_paulinia/image_06_vecconpaulinia.jpg'
+    '/imagens/produtos/veccon_paulinia/image_01_vecconpaulinia.webp',
+    '/imagens/produtos/veccon_paulinia/image_02_vecconpaulinia.webp',
+    '/imagens/produtos/veccon_paulinia/image_03_vecconpaulinia.webp',
+    '/imagens/produtos/veccon_paulinia/image_04_vecconpaulinia.webp',
+    '/imagens/produtos/veccon_paulinia/image_05_vecconpaulinia.webp',
+    '/imagens/produtos/veccon_paulinia/image_06_vecconpaulinia.webp'
 ];
 
 const carousels = [
