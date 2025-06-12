@@ -208,7 +208,15 @@ const carousels = [
     },
 ];  
 
+function preloadImages(images) {
+    images.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+}
+
 carousels.forEach(c => {
+    preloadImages(c.images); // pré-carrega as imagens do carrossel
     const img = document.querySelector(c.imgSelector);
     const btn = document.querySelector(c.btnSelector);
     initCarousel(c.images, img, btn);
