@@ -135,4 +135,123 @@ footer.bg-primary {
 }
 
 .hidden { display: none !important; }
-/* Nenhuma regra específica para Sou Pleno Paisage encontrada, nada a remover. */
+
+@media (max-width: 767.98px) {
+  header .mb-0 {
+    font-size: 2.1rem !important;
+    padding-left: 0.5rem;
+  }
+  header .mb-2,
+  header .d-block.d-md-none {
+    font-size: 1.05rem !important;
+    line-height: 1.2;
+  }
+  header .d-flex.align-items-center {
+    gap: 0.5rem;
+  }
+  header .rounded-circle.img-fluid {
+    width: 140px !important;
+    height: 140px !important;
+    max-width: 90vw;
+    max-height: 90vw;
+    border-width: 5px;
+  }
+  header .d-inline-flex.bg-white {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  header .d-inline-flex.bg-white img {
+    width: 22px !important;
+    height: 22px !important;
+  }
+  header .fw-semibold.fs-5 {
+    font-size: 1rem !important;
+  }
+  .mobile-title {
+    display: none !important;
+  }
+  header .d-flex.align-items-center.gap-3 {
+    margin-bottom: 0.75rem !important;
+  }
+  .d-flex.align-items-center > a {
+    width: 60px !important;
+    height: 60px !important;
+    margin-right: 0.5rem;
+  }
+  .d-flex.align-items-center > a img {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .d-flex.align-items-center {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+header .header-content-custom {
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+header .header-content-custom .col-auto {
+  justify-content: center !important;
+  display: flex !important;
+}
+header .header-content-custom .col {
+  align-items: center !important;
+  text-align: center !important;
+}
+header .header-content-custom h1,
+header .header-content-custom p {
+  padding-left: 0 !important;
+}
+header .header-content-custom .d-flex.gap-3 {
+  justify-content: center !important;
+}
+
+@media (min-width: 768px) {
+  header .header-content-custom {
+    flex-direction: row !important;
+    align-items: center !important;
+    text-align: left !important;
+  }
+  header .header-content-custom .col-auto {
+    justify-content: flex-start !important;
+  }
+  header .header-content-custom .col {
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+  header .header-content-custom .d-flex.gap-3 {
+    justify-content: flex-start !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header .header-content-custom h1 {
+    font-size: 2.2rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  header .header-content-custom p {
+    font-size: 1.1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  header .header-content-custom .d-flex.gap-3 a {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  header .header-content-custom .d-flex.gap-3 a img {
+    width: 36px !important;
+    height: 36px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  header .rounded-circle.img-fluid {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}

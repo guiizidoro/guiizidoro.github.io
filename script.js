@@ -81,8 +81,8 @@ if (filterstatus) {
 }
 
 const carrosselImagens_veccon_moradas01 = [
-    '/imagens/produtos/veccon_moradas_01/image_01_veccon.webp',
     '/imagens/produtos/veccon_moradas_01/image_02_veccon.webp',
+    '/imagens/produtos/veccon_moradas_01/image_01_veccon.webp',
     '/imagens/produtos/veccon_moradas_01/image_03_veccon.webp',
     '/imagens/produtos/veccon_moradas_01/image_04_veccon.webp',
     '/imagens/produtos/veccon_moradas_01/image_05_veccon.webp'
@@ -208,15 +208,7 @@ const carousels = [
     },
 ];  
 
-function preloadImages(images) {
-    images.forEach(src => {
-        const img = new Image();
-        img.src = src;
-    });
-}
-
 carousels.forEach(c => {
-    preloadImages(c.images); // pré-carrega as imagens do carrossel
     const img = document.querySelector(c.imgSelector);
     const btn = document.querySelector(c.btnSelector);
     initCarousel(c.images, img, btn);

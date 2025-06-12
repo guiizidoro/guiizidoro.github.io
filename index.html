@@ -10,32 +10,22 @@
 <body class="bg-light">
     <header class="bg-primary text-white py-4 mb-4">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-auto">
+            <div class="row align-items-center flex-column flex-md-row text-center text-md-start header-content-custom">
+                <div class="col-auto mb-3 mb-md-0 d-flex justify-content-center">
                     <img src="/imagens/mypfp.webp" alt="Foto Guilherme Izidoro" class="rounded-circle img-fluid shadow" style="width:180px;height:180px;object-fit:cover;">
                 </div>
-                <div class="col">
-                    <h1 class="mb-0">Guilherme Izidoro</h1>
-                    <p class="mb-2">Corretor de Imóveis - Realizando seu sonho!</p>
-                    <nav class="navbar navbar-expand-md navbar-dark p-0">
-                        <button class="navbar-toggler ms-2 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="mainNavbar">
-                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#sobre">Sobre</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#empreendimentos">Empreendimentos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="https://wa.me/5511987713651?text=Olá, *Guilherme*, tudo bem ? Entrei pelo site ! :)">Contato</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+                <div class="col d-flex flex-column align-items-center align-items-md-start justify-content-center">
+                    <h1 class="mb-2" style="padding-left: 0;">Guilherme Izidoro</h1>
+                    <p class="mb-3 mb-md-2" style="padding-left: 0;">Corretor de Imóveis - Realizando seu sonho !</p>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                        <a href="https://wa.me/5511987713651?text=Olá, vim pelo site e gostaria de falar com o corretor *Izidoro* !" target="_blank" rel="noopener" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle shadow p-2" style="width:54px;height:54px;">
+                            <img src="imagens/site/whatslogo.png" alt="Contate-me" style="width:32px;height:32px;object-fit:contain;">
+                        </a>
+                        <a href="https://www.instagram.com/izidorormc/" target="_blank" rel="noopener" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle shadow p-2" style="width:54px;height:54px;">
+                            <img src="imagens/site/insta.png" alt="Contate-me" style="width:32px;height:32px;object-fit:contain;">
+                        </a>
+                    </div>
+                </div>  
             </div>
         </div>
     </header>
@@ -73,10 +63,10 @@
                 </div>
             </div>
             <div id="catalogo-empreendimentos" class="row g-4">
-                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="em-obra" data-quartos="3">
                     <div class="card h-100 shadow-sm" >
                         <div class="imagem-produto position-relative">
-                            <img class="carousel-image card-img-top" loading="lazy" data-carousel="veccon_moradas_01" src="/imagens/produtos/veccon_moradas_03/image_01_veccon.webp" alt="Empreendimento 1">
+                            <img class="carousel-image card-img-top" loading="lazy" data-carousel="veccon_moradas_01" src="/imagens/produtos/veccon_moradas_01/image_01_veccon.webp" alt="Empreendimento 1">
                             <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="veccon_moradas_01" aria-label="Próxima imagem">
                                 <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
                             </button>
