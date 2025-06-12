@@ -1,0 +1,138 @@
+/* Remove estilos já cobertos pelo Bootstrap e limpa duplicidades */
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background: #f4f8fb;
+    color: #222;
+}
+
+header.bg-primary {
+    background: linear-gradient(90deg, #003366 60%, #005fa3 100%);
+    box-shadow: 0 2px 8px #00336622;
+}
+
+header .rounded-circle {
+    border: 4px solid #fff;
+}
+
+h1, h2, h4, .card-title {
+    font-family: 'Segoe UI Semibold', Arial, Helvetica, sans-serif;
+}
+
+#sobre ul {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    color: #003366;
+}
+#sobre li {
+    margin-bottom: 0.5rem;
+}
+
+#empreendimentos h2 {
+    color: #003366;
+    font-weight: 600;
+}
+
+.filtros {
+    background: #e9ecef;
+    border-radius: 8px;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 2rem !important;
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px #00336618;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+.card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 6px 24px #00336633;
+}
+.card-title {
+    color: #003366;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card-text strong {
+    color: #005fa3;
+}
+
+#sobre img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.imagem-produto {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 5/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #dde6ef;
+    border-radius: 12px 12px 0 0;
+}
+.imagem-produto img.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px 12px 0 0;
+    transition: filter 0.2s;
+}
+.imagem-produto img.carousel-image:hover {
+    filter: brightness(0.95) contrast(1.1);
+}
+.next-image {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    box-shadow: 0 2px 8px #00336622;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.next-image img {
+    width: 22px;
+    height: 22px;
+    display: block;
+}
+.next-image:hover {
+    background: #005fa3;
+    box-shadow: 0 4px 16px #00336633;
+}
+
+.btn-primary.btn-sm {
+    background: linear-gradient(90deg, #003366 60%, #005fa3 100%);
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px #00336622;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.btn-primary.btn-sm:hover {
+    background: #005fa3;
+    box-shadow: 0 4px 16px #00336633;
+}
+
+footer.bg-primary {
+    background: linear-gradient(90deg, #003366 60%, #005fa3 100%);
+    box-shadow: 0 -2px 8px #00336622;
+    font-size: 1rem;
+}
+
+.hidden { display: none !important; }
+/* Nenhuma regra específica para Sou Pleno Paisage encontrada, nada a remover. */

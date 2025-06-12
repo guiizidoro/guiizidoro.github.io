@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Izidoro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <header class="bg-primary text-white py-4 mb-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <img src="/imagens/mypfp.jpeg" alt="Foto Guilherme Izidoro" class="rounded-circle img-fluid shadow" style="width:180px;height:180px;object-fit:cover;">
+                </div>
+                <div class="col">
+                    <h1 class="mb-0">Guilherme Izidoro</h1>
+                    <p class="mb-2">Corretor de Imóveis - Realizando seu sonho!</p>
+                    <nav class="mb-2">
+                        <a href="#sobre" class="text-white mx-2 text-decoration-none">Sobre</a>
+                        <a href="#empreendimentos" class="text-white mx-2 text-decoration-none">Empreendimentos</a>
+                        <a href="#contato" class="text-white mx-2 text-decoration-none">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section id="sobre" class="row align-items-center mb-5">
+            <div class="col-md-8">
+                <h2>Sobre Mim</h2>
+                <p>Sou Guilherme Izidoro, corretor de imóveis especializado em ajudar pessoas a realizarem o sonho da casa própria e a encontrarem os melhores investimentos imobiliários. Com atendimento personalizado, transparência e conhecimento do mercado, ofereço as melhores oportunidades para você e sua família.</p>
+                <ul class="list-unstyled mt-3">
+                    <li>✔ Atendimento personalizado</li>
+                    <li>✔ Especialista em lançamentos e empreendimentos</li>
+                    <li>✔ Consultoria completa do início ao fim</li>
+                </ul>
+            </div>
+        </section>
+        <section id="empreendimentos" class="mb-5">
+            <h2 class="mb-4">Empreendimentos em Destaque</h2>
+            <div class="row mb-3 g-3 filtros align-items-end">
+                <div class="col-md-3">
+                    <label for="filtro-cidade" class="form-label">Cidade:</label>
+                    <select id="filtro-cidade" class="form-select">
+                        <option value="todas" selected>Todas</option>
+                        <option value="hortolandia">Hortolândia</option>
+                        <option value="campinas">Campinas</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="filtro-status" class="form-label">Status:</label>
+                    <select id="filtro-status" class="form-select">
+                        <option value="todos" selected>Todos</option>
+                        <option value="lançamento">Lançamento</option>
+                        <option value="em-obra">Em obra</option>
+                        <option value="pronto">Pronto para morar</option>
+                    </select>
+                </div>
+            </div>
+            <div id="catalogo-empreendimentos" class="row g-4">
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm" >
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="veccon_moradas_01" src="/imagens/produtos/veccon_moradas_03/image_01_veccon.jpg" alt="Empreendimento 1">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="veccon_moradas_01" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Veccon Moradas 01</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Em obra</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> <b>R$332.000,00</b></p>
+                            <a href="#" class="btn btn-primary btn-sm" id="veccon_moradas_01_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="neo_residencial" src="/imagens/produtos/neo_residencial/image_03_neoresidencial.jpg" alt="Empreendimento NEO Residencial">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="neo_residencial" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">NEO Residencial</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> <b>R$372.500,00</b></p>
+                            <a href="#" class="btn btn-primary btn-sm" id="neo_residencial_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="arvo_residencial" src="/imagens/produtos/arvo_residencial/image_03_arvoresidencial.jpg" alt="Empreendimento Arvo Residencial">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="arvo_residencial" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Arvo Residencial</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="arvo_residencial_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="encantos_de_toscana" src="/imagens/produtos/encantos_de_toscana/image_03_encantosdetoscana.jpg" alt="Empreendimento Encantos de Toscana">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="encantos_de_toscana" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Encantos de Toscana</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="encantos_de_toscana_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="life_residencial" src="/imagens/produtos/life_residencial/image_03_liferesidencial.jpg" alt="Empreendimento Life Residencial">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="life_residencial" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Life Residencial</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="life_residencial_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="epic_residencial" src="/imagens/produtos/epic_residencial/image_01_epicresidencial.jpg" alt="Empreendimento Epic Residencial">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="epic_residencial" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Epic Residencial</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="epic_residencial_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="maxy_santana" src="/imagens/produtos/maxy_santana/image_01_maxysantana.jpg" alt="Empreendimento Maxy Santana">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="maxy_santana" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Maxy Santana</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="maxy_santana_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="2">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="sou_pleno_paisage" src="/imagens/produtos/sou_pleno_paisage/image_01_souplenopaisage.jpg" alt="Empreendimento Sou Pleno Paisage">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="sou_pleno_paisage" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Sou Pleno Paisage</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="sou_pleno_paisage_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="reserva_do_parque" src="/imagens/produtos/reserva_do_parque/image_01_reservadoparque.jpg" alt="Empreendimento Reserva do Parque">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="reserva_do_parque" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Reserva do Parque</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="reserva_do_parque_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 empreendimento" data-cidade="hortolandia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="reserva_dos_ipes" src="/imagens/produtos/reserva_dos_ipes/image_01_reservadodosipes.jpg" alt="Empreendimento Reserva dos Ipês">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="reserva_dos_ipes" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Reserva dos Ipês</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Hortolândia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="reserva_dos_ipes_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 empreendimento" data-cidade="paulinia" data-tipo="apartamento" data-status="lançamento" data-quartos="3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="imagem-produto position-relative">
+                            <img class="carousel-image card-img-top" data-carousel="veccon_paulinia" src="/imagens/produtos/veccon_paulinia/image_01_vecconpaulinia.jpg" alt="Empreendimento Veccon Paulínia">
+                            <button class="next-image btn btn-light position-absolute top-50 end-0 translate-middle-y me-2" data-carousel="veccon_paulinia" aria-label="Próxima imagem">
+                                <img src="/imagens/site/636008-200.png" alt="Próxima imagem" style="width:24px;height:24px;">
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Veccon Paulínia</h4>
+                            <p class="card-text mb-1"><strong>Cidade:</strong> Paulínia</p>
+                            <p class="card-text mb-1"><strong>Tipo:</strong> Apartamento</p>
+                            <p class="card-text mb-1"><strong>Status:</strong> Lançamento</p>
+                            <p class="card-text mb-2"><strong>A partir de:</strong> À partir de : </p>
+                            <a href="#" class="btn btn-primary btn-sm" id="veccon_paulinia_sb_btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+    </main>
+    <footer class="bg-primary text-white text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2024 Guilherme Izidoro - Corretor de Imóveis. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
